@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <div id="contact_form">
+        <!-- An element that handles all the actions of forms -->
+        <!-- The "post" attribute is to idenify the specific action that the form is suppose to do -->
+        <form action="post">
+            <!-- The "for" attribute is a reference for the matching input -->
+            <label for="name">Your Full Name</label>
+            <br>
+            <!-- The "placeholder" attribute is for a gray text to apear as a default view int the input box -->
+            <input type="text" id="name" placeholder="Foo Bar">
+            <br>
+            <label for="email">Your Email</label>
+            <br>
+            <input type="email" id="email" placeholder="abc@gmail.com">
+            <br>
+            <label for="phone">Your Phone</label>
+            <br>
+            <input type="tel" id="phone" placeholder="972+501234567">
+            <br>
+            <label for="message_box">Your Message</label>
+            <br>
+            <!-- An element for generic text input -->
+            <textarea id="message_box" placeholder="Good Site"></textarea>
+            <br>
+            <br>
+            <!-- The "type" attribute is for determing what action the button is for -->
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <div id="contact_protocols">
+        <!-- links that uses connection protocols to handle phone calls and email rquests in a simple way -->
+        <a href="mailto:qqq@ourcompany.com">Mail Us</a>
+        <a href="tel:+972501234567">Call Us</a>
+    </div>
+    <nav id="back_home">
+        <a href="/Part_b/index.html">Back To Home</a>
+    </nav>
+</body>
+</html>

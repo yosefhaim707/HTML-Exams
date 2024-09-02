@@ -1,0 +1,90 @@
+<html lang="en">
+<!--Meta data of the page-->
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Exam Part 1</title>
+</head>
+<!--the actual page-->
+<body>
+    <!-- Title of the page -->
+    <h1>Exam Web Page</h1>
+    <!-- Navigation links -->
+    <nav id="nav_bar">
+        <header id = "title">Choose</header>
+        <a class="nav_link" href="#travel_table">To The Travel Table</a>
+        <a class="nav_link" href="#attractions_list">To The attractions list</a>
+    </nav>
+    <!-- The containor of the travel table -->
+    <div title="Travel Table" id="travel_table">
+        <h2>Travel Table</h2>
+        <table>
+            <!-- An element that defines the head and the body of the table in a more orginaized way -->
+            <thead>
+                <tr>
+                    <th>Destination</th>
+                    <th>Country</th>
+                    <th>Famous Landmarks</th>
+                    <th>Image</th>
+                    <th>Learn More</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Rio De Janeiro
+                    </td>
+                    <td>
+                        Brazil
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                The Beach
+                            </li>
+                            <li>
+                                The Jesus Statue
+                            </li>
+                            <li>
+                                Maracana Stadium
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/800px-Cidade_Maravilhosa.jpg"
+                        alt="Image Of Rio" width="300px" height="200px">
+                    </td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Rio_de_Janeiro">More Info About Rio</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- The containor of the attraction list -->
+    <div title="Attractions List" id="attractions_list">
+        <h2>
+            Top Attractions In The World
+        </h2>
+        <!-- A list that has for each line a title and description -->
+        <dl>
+            <dt>
+                Niagara Falls
+            </dt>
+            <dd>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/3Falls_Niagara.jpg" 
+                            alt="Niagara Falls" width="300px" height="200px">
+                        </td>
+                        <td>
+                            <a href="https://en.wikipedia.org/wiki/Niagara_Falls">More Info About Niagara Falls</a>
+                        </td>
+                    </tr>
+                </table>
+            </dd>
+        </dl>
+    </div>
+</body>
+</html>
